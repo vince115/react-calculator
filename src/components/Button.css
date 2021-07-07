@@ -1,0 +1,48 @@
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.1rem;
+    margin-bottom: 0;
+    border-radius: 0.2em;
+    border-bottom: 0.1em solid #666666;
+    color: #f5f8fa;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
+}
+.button:hover{
+    top:0.1em;
+    border-bottom-width: 0.1em;
+    
+}
+.button-wrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888888;
+    flex: 1;
+    outline: 0px solid #666666;
+}
+
+.operator {
+    background-color: #fe9241;
+    color: #ffffff;
+}
+
+.clear-btn {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #c5c3cd;
+    color: #000000;
+    flex: 1;
+    outline: 1px solid #888888;
+  }
