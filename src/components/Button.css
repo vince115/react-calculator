@@ -11,7 +11,7 @@
     text-decoration: none;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
 }
-.button:hover{
+.button:active{
     top:0.1em;
     border-bottom-width: 0.1em;
     
